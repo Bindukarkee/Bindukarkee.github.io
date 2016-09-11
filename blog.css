@@ -1,0 +1,12 @@
+h1 {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+a{
+    text-decoration:none;
+    color:blue;
+}
+a:hover{
+    background-color:black;
+}

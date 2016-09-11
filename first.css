@@ -1,0 +1,19 @@
+body
+{
+    background-color:black;
+}
+
+b
+{
+    margin-left:15%;
+    color:white;
+    vertical-align: top;
+    font-size: 120%;
+}
+
+b:hover
+{
+    background-color:red;
+    color:black;
+
+}

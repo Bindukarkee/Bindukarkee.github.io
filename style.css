@@ -124,11 +124,5 @@ fieldset.ftwo {
      textarea.tone
      {
          margin-left:3.3cm;
-     }
-     div#blogheader
-     {
-         text-align:center;
-         background-color: #11498b;
-         color:white;
-         height:1.5cm;
+         vertical-align: top;
      }
