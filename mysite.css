@@ -1,7 +1,15 @@
+
 body
 {
-    background-image: url('hands_laptop_free_photo-690x457.jpg');
+    background: url(hands_laptop_free_photo-690x457.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+}
+.box1
+{
+    float:right;
 }
 
 .box2
@@ -24,7 +32,6 @@ body
     background-color: #b28132;
     border-radius:6px;
 }
-
 
 h2.ab
 {
@@ -70,43 +77,22 @@ a:active {
 }
 a.facebook
 {
-    color:black;
-    font-size: medium;
-    text-align: center;
-    text-decoration: none;
+    margin-left: 0.8cm;
 }
 a.twitter
 {
-    color:black;
-    font-size: medium;
-    text-decoration: none;
+    margin-left:0.4cm;
 }
 
 a.gmail
 {
-    color:black;
-    font-size: medium;
-    text-decoration: none;
-}
-a.facebook:hover
-{
-    color:#337ab7;
-    font-size:large;
-}
-a.twitter:hover
-{
-    color:deepskyblue;
-    font-size:large;
-}
-a.gmail:hover
-{
-    color:red;
-    font-size:large;
+    margin-left: 0.4cm;
+    margin-top:0.2cm;
 }
 a.a1:hover
 {
     color:white;
     background-color: black;
-    font-size: 20px;
+    font-size: 18px;
     box-shadow: 0px 9px 0px rgb(246, 246, 246), 0px 9px 25px rgba(248, 248, 238, 0.7);
 }
