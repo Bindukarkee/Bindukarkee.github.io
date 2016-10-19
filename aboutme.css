@@ -19,60 +19,60 @@ h1 {
     -webkit-margin-end: 0px;
     font-weight: bold;
 }
-.btn-default:hover {
-    color: black;
-    background-color: white;
-    border-color: lightblue;
-    font-size:larger;
-}
-
 .box2
 {
     border:1px solid rgba(0, 0, 0, 0.04);
-    height:7.5cm;
-    margin-top:0.2cm;
     width:16%;
-    float:left;
+    margin-top:0.5cm;
     background-color: lightblue;
     border-radius:5px;
+    float:left;
+
 }
-.btn-default
-{
-    color: white;
-    background-color: black;
-    border-color: #ccc;
-    width:100%;
-    margin-top:1cm;
-}
-.ab1
-{
-    margin-top:0.01cm;
-}
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.42857143;
+
+a.a1 {
+    color: black;
+    text-decoration: none;
+    background-color: #cddaff;
+    font-size: 18px;
+    display: block;
+    margin-top:0.8cm;
+    margin-bottom: 0.8cm;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 9px 0px rgb(11, 11, 11), 0px 9px 25px rgba(205, 218, 255, 0.7);
+    -moz-box-shadow: 0px 9px 0px rgb(11, 11, 11), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgb(11, 11, 11), 0px 9px 25px rgba(0,0,0,.7);
     text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    touch-action: manipulation;
-    cursor: auto;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+
 }
+a:active {
+    -webkit-box-shadow: 0px 3px 0px rgb(32, 49, 178), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgb(32, 49, 178), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgb(32, 49, 178), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+
+a.a1:hover {
+    color: white;
+    background-color: #0b0b0b;
+    font-size: 18px;
+    box-shadow: 0px 9px 0px rgb(204, 195, 255), 0px 9px 25px rgba(248, 248, 238, 0.7);
+}
+
 
 div#desciption {
     background-color: lightblue;
     font-size: 125%;
-    border: 1px solid black;
+    border: 1px solid grey;
     margin-left: 5.8cm;
 }
 p {
@@ -90,4 +90,9 @@ div#end {
     background-color: black;
     color: white;
     text-align: right;
+}
+b.b1
+{
+    margin-left:1cm;
+    color:black;
 }
